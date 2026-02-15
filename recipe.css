@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 1440px;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Inter", sans-serif;;
+}
+#main {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+.img {
+    padding-left: 0%;
+    border-radius: 20px;
+}
+.subtwo {
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 20px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+h1,h2, .weight {
+    color: hsl(14, 45%, 36%);
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relatives;
+}
+ol li:before {
+    color: hsl(14, 45%, 36%);
+    content: counter(list) ". ";
+    position: -32px;
+    font-weight: bold;
+}
+#olist {
+    padding-left: 0%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+td {
+    padding: 15px 0;
+}
+.weight {
+    font-weight: bold;
+}
